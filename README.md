@@ -172,8 +172,6 @@ curl http://localhost:8999/demo
 
 **觉得有用？别忘了给个 ⭐Star⭐ 支持一下！**
 
-**分享给更多需要的朋友，让优质内容传递价值！**
-
 ---
 
 *Made with ❤️ by [EasonChenC](https://github.com/EasonChenC)*
