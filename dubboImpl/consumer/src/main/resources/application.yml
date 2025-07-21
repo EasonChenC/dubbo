@@ -1,0 +1,23 @@
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://192.168.31.91:2181
+    timeout: 50000
+    parameters:
+      blockUntilConnectedWait: 50
+  protocol:
+    name: dubbo
+    port: 20882
+  consumer:
+    timeout: 5000
+    retries: 0
+    check: false
+
+server:
+  port: 8999
+
+logging:
+  level:
+    com.ck: DEBUG
+    org.apache.dubbo: INFO
